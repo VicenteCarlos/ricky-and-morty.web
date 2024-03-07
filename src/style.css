@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../public/assets/img/space.png);
+  color: white;
+  font-family: "Patrick Hand", cursive;
+}
+
+body::-webkit-scrollbar {
+    background-color: #000;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #54ea0f;
+  border-radius: 3px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header button {
+  margin: 30px 20px;
+  color: #00b5cc;
+  text-shadow: #B2DF28 2px 2px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 40px;
+  position: sticky;
+}
+
+header img {
+  width: 420px;
+  height: 220px;
+}
+
+main #container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+main #container-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

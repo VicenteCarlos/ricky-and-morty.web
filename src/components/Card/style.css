@@ -1,0 +1,48 @@
+#containerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#containerCard h2 {
+    font-size: 40px;
+    margin-bottom: 40px;
+    color: #00b5cc;
+    text-shadow: #B2DF28 2px 2px
+}
+
+#contentCard {
+    text-align: center;
+    color: #00B5CC;
+    margin: 20px 20px;
+    background: url(../../../public/assets/img/portal.png);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position: center;
+    width: 300px;
+    padding: 30px;
+}
+
+#contentCard img {
+    width: 100%;
+    height: 200px;
+    border-radius: 100%;
+}
+
+#contentCard .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contentCard h2, #contentCard .content p, #contentCard strong {
+    color: #44281D;
+    text-shadow: #ffffff -1px -1px;
+    font-size: 20px;
+}
+
+#contentCard strong {
+    font-size: 30px;
+}
+
+
